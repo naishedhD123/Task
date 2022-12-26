@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.main{
+			height: 100px;
+			width: 100px;
+			background: transparent;
+			border-radius: 50%;
+			border: 10px solid transparent;
+			border-top: 10px solid pink;
+			padding: 15px;
+			margin: 100px auto;
+
+			animation: preloader 3s linear infinite;
+
+		}
+		.s1{
+			height: 50px;
+			width: 50px;
+			background: transparent;
+			border-radius: 50%;
+			border: 10px solid transparent;
+			border-top: 10px solid blue;
+			padding: 15px;
+
+			animation: preloader2 1s linear infinite;
+		}
+
+		@keyframes preloader{
+			0%{transform: rotate(0deg);}
+			100%{transform: rotate(-360deg);}
+		}
+
+		@keyframes preloader2{
+			0%{transform: rotate(0deg);}
+			100%{transform: rotate(360deg);}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="main">
+		<div class="s1">
+			
+		</div>
+	</div>
+
+</body>
+</html>

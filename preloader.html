@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.main{
+			height: 150px;
+			width: 150px;
+			background: transparent;
+			border-radius: 50%;
+			margin: 100px auto;
+			border: 10px solid transparent;
+			border-top: 10px solid yellow;
+			padding: 15px;
+
+			animation: preloader 5s linear infinite;
+		}
+		.d1{
+			height: 100px;
+			width: 100px;
+			background: transparent;
+			border-radius: 50%;
+			border: 10px solid transparent;
+			border-top: 10px solid blue;
+			padding: 15px;
+
+			animation: preloader 3s linear infinite;
+		}
+		.d2{
+			height: 50px;
+			width: 50px;
+			background: transparent;
+			border-radius: 50%;
+			border: 10px solid transparent;
+			border-top: 10px solid pink;
+			padding: 15px;
+
+			animation: preloader 8s linear infinite;
+		}
+
+		@keyframes preloader{
+			from{transform: rotate(0deg);}
+			to{transform: rotate(360deg);}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="main">
+		<div class="d1">
+			<div class="d2">
+				
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
